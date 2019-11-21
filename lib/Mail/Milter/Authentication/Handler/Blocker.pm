@@ -1,7 +1,7 @@
 package Mail::Milter::Authentication::Handler::Blocker;
 use strict;
 use warnings;
-use base 'Mail::Milter::Authentication::Handler';
+use parent 'Mail::Milter::Authentication::Handler';
 # VERSION
 # ABSTRACT: Block mail based on simple rules
 
